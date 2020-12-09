@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scrollbar-color: transparent;
+    background-color: #010103;
+}
+
+::-webkit-scrollbar { 
+    width: 0;
+}
+
+main{
+    width: 1920px;
+    height: 919px;
+}
+
+header{
+    width: 1920px;
+    height: 99px;
+}
+
+footer{
+    width: 1920px;
+    height: 99px;
+}
+
+hr{
+    background-color:  #656773;
+}
+
+td {
+    width: 50px;
+    height: 40px;
+    border-collapse: collapse;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+table{
+    background-color: transparent;
+    color: white;
+}
+
+a{
+    color:#FFC107;
+    font-size: 20px;
+}
+
+a:hover{
+    color: grey;
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    float: right;
+    -webkit-appearance: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 20px;
+    background: url(/src/images/elements/non_checked.png) left center no-repeat;    
+    background-size: 20px; 
+}
+input[type="radio"]:checked {
+    background: url(/src/images/elements/checked.png) left center no-repeat;
+}
+input[type="radio"]:disabled {
+    background: url(/src/images/elements/disabled.png) left center no-repeat;
+}
+
+.nav_links{
+    width: 100%;
+    height: 20px;
+    margin: 35px 0 44px 0;
+}
+
+.sl_wrap{
+    height: 819px;
+    color: white;
+}
+
+.sl_item_wrapper{
+    background-size: cover;
+    width: 100%;
+    height: 819px;
+    margin: auto;  
+
+}
+
+.sl_content{
+    width: fit-content;
+    margin: 0;
+    height: auto;
+    background-color: rgba(0,0,0, .4);
+    padding: 0 10px 0 10px;
+}
+
+.sl_description{
+    margin: 60px;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+}
+
+.sl_title{
+    font-size: 80px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+.gn_providers{
+    text-transform: uppercase;
+    font-family: 'Goldman', cursive;
+}
+
+.sl_partners{
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    margin-left: -100px;
+    background-color: rgba(0,0,0, .4);
+    padding: 0 10px 0 10px;
+}
+
+.sl_button{
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0,0,0, .4);
+    margin-left: 40px;
+}
+
+.pr_wrap{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 919px; 
+    overflow: auto;
+    padding-bottom: 300px;
+    color: white;
+}
+
+.cl_arrow{
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+
+.cl_title{
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+.cl_sp_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cl_picked{
+    border: 1px solid #FFC107;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.cl_day{
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
+.cl_dayname{
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    right: 1px;
+}
+
+.cl_modaloverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0, .8);
+    z-index: 100;
+}
+.cl_tablewrapper{
+    border: 2px solid #FFC107;
+
+}
+
+.cl_prevdays{
+    background-color: #202326;
+}
+
+.cl_fullreserved{
+    background-color: #EA5800;
+    color:#D7D7D7;
+}
+
+.cl_reserved{
+    background-color: #B4B4B4;
+    color: black;
+}
+
+.fl_wrap{
+    position: absolute;
+    top: 0;
+    left: -250px;
+    border-radius: none;
+}
+
+.fl_wrap ul{
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.fl_wrap ul li{
+    width: fit-content;
+}
+
+.cl_modalbuttonwrap{
+    background-color: #010103;
+    color:white;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.cl_modalcontent{
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    background-color: white;
+    border: 2px solid #FFC107;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+.cl_weekday{
+    background-color: #DE8F00;
+}
